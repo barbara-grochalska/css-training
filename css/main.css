@@ -1,0 +1,116 @@
+body {
+    font-family: Arial;
+    line-height: 30px;
+}
+
+#words > p {
+    color:greenyellow;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#articles h2 + p{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+p[class] {
+    color:darkred;
+}
+div[id] {
+    color: darkolivegreen;
+}
+
+a[title="check"] {
+    color: darkblue;
+}
+
+p[class~="zero"] {
+    color:red;
+}
+a[href^="https"] {
+    color:white;
+}
+
+ #articles p:last-child {
+ font-weight: bold;
+ color: darkcyan;
+}
+#articles p:first-of-type {
+    color:yellow;
+    font-size: 50px;
+}
+li:nth-child(4), li:nth-child(9) {
+    color:darkorange;
+}
+
+li:nth-child(even) {
+    background-color: lightpink;
+}
+li:nth-child(odd) {
+    background-color: lightslategray;
+}
+
+li {
+    width: 200px;
+}
+
+li:nth-child(2n+1){
+    color: lightcoral;
+}
+
+#answer p:nth-of-type(3) {
+    font-style: italic;
+    color: blue;
+}
+
+ul .ok {
+    background-color: lawngreen;
+}
+
+#articles {
+    font-size: 20px;
+}
+
+#articles h2 {
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    background-color: crimson;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+
+}
+
+#articles {
+    background-color: lightgoldenrodyellow;
+}
+
+#buttons {
+    width: 100%;
+    margin: 40px;
+}
+
+#buttons .button {
+    margin:30px 5%;
+    padding: 30px;
+    border: 3px none yellow;
+    height: 50px;
+    width: 30%;
+    display: inline-block;
+    color: black;
+    background: -moz-linear-gradient(right, rgba(255, 255, 0, 0.7) 0%, rgba(0, 255, 0, 0.7) 100%);
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 4px rgba(0, 255, 0);
+    
+}
